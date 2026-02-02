@@ -6,7 +6,7 @@ from utils import *
 set_background("summer")
  
 # create at least two variables and set their starting value
-cookies = 0
+cardinals = 0
 points = 0
 
 
@@ -21,11 +21,11 @@ window.onkeypress(get_points, "p")
 
 
 
-def get_cookies ():
-    global cookies,points
+def get_cardinals ():
+    global cardinals,points
     points += 1
-    cookies += 1
-window.onkeypress(get_cookies, "c" )
+    cardinals += 1
+window.onkeypress(get_cardinals, "c" )
 x = random.randint(-200,200)
 y = random.randint(-200,200)
 
