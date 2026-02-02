@@ -2,10 +2,10 @@
 from utils import *
 set_background("winter")
 
-s1 = create_sprite("cat", 100, 100)
-s2 = create_sprite("", -100, 100)
-s3 = create_sprite("cardinal", -100, -100)
-s4 = create_sprite("cardinal", 100, -100)
+s1 = create_sprite("basketball", 100, 100)
+s2 = create_sprite("basketball", -100, 100)
+s3 = create_sprite("basketball", -100, -100)
+s4 = create_sprite("basketball", 100, -100)
 
 message1 = create_sprite("alien",-200,200)
 message1.color("red")
