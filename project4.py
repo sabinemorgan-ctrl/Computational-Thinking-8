@@ -1,6 +1,7 @@
 import turtle, time, random
 from utils import *
 
+# goal: cardinal clicker 
 # Section 1 - setup
 # - set a background using set_background(summer)
 set_background("summer")
@@ -25,10 +26,10 @@ def get_cardinals ():
     global cardinals,points
     points += 1
     cardinals += 1
+    x = random.randint(-200,200)
+    y = random.randint(-200,200)
+    create_sprite ("cardinals.gif", x,y)
 window.onkeypress(get_cardinals, "c" )
-x = random.randint(-200,200)
-y = random.randint(-200,200)
-
 
 # Section 3 - game loop
 window.listen()
